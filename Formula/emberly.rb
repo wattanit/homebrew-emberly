@@ -1,25 +1,25 @@
 class Emberly < Formula
   desc "Emberly Code — an interactive AI coding agent for the terminal"
   homepage "https://github.com/wattanit/emberly-code"
-  version "0.5.2"
+  version "0.5.3"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/wattanit/emberly-code/releases/download/v0.5.2/emberly-aarch64-apple-darwin.tar.xz"
-      sha256 "bbabfd06a636f91c83ba24142e477071955b799d57dd03f5a9692aa30263f251"
+      url "https://github.com/wattanit/emberly-code/releases/download/v0.5.3/emberly-aarch64-apple-darwin.tar.xz"
+      sha256 "f979c270f1fb39d394f00b6a1e920a502d356a1d75a78ed5351362b5db834869"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/wattanit/emberly-code/releases/download/v0.5.2/emberly-x86_64-apple-darwin.tar.xz"
-      sha256 "20d172bae9f142d983d66b7fb3f57b4d922138d0bef09c92c6617c4a370dfc7f"
+      url "https://github.com/wattanit/emberly-code/releases/download/v0.5.3/emberly-x86_64-apple-darwin.tar.xz"
+      sha256 "b4d2f34030b6160e55a26366c0cdd6234e5c17bb2c268156747deace2ac76f53"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/wattanit/emberly-code/releases/download/v0.5.2/emberly-aarch64-unknown-linux-musl.tar.xz"
-      sha256 "1284afbb5c143d93b51489d69ded25261ccd7c66312a940e1818fc12bf583d8f"
+      url "https://github.com/wattanit/emberly-code/releases/download/v0.5.3/emberly-aarch64-unknown-linux-musl.tar.xz"
+      sha256 "876522f68fcfbfb741de89e1048dfa9e97a0d31b6ae998f42ae732dcfeea069e"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/wattanit/emberly-code/releases/download/v0.5.2/emberly-x86_64-unknown-linux-musl.tar.xz"
-      sha256 "720268c2e5814d87fd93c6d97ebced360f5854cff21e12861f917e53879720a4"
+      url "https://github.com/wattanit/emberly-code/releases/download/v0.5.3/emberly-x86_64-unknown-linux-musl.tar.xz"
+      sha256 "3941ef13a0cf75d5eba09b42e101f74c6587e5d2e1e3ba9c5c2adcc2f2b63e69"
     end
   end
   license "AGPL-3.0-or-later"
